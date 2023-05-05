@@ -23,8 +23,10 @@ The cache has LRU (least-recently-used) replacement policy for fully associative
 
 The input to the cache simulator will be a sequence of memory access traces, one per line, terminated by end of file. In the following format, with a leading 0 for data loads, 1 for data stores and 2 for instruction load. You should ignore anything (possible comments) that follows.
 
-0 <address>
-1 <address> <dataword>
-2 <address>
+0 < address >
+
+1 < address > < dataword >
+
+2 < address >
 
 Each address will be the address of a 32-bit data word. The address and data are expressed in hexadecimal format.
